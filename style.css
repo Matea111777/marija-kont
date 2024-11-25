@@ -1,0 +1,100 @@
+
+
+.data-item:hover {
+    background-color: #f8f9fa;
+}
+
+/* Styling for the section */
+#uslugi {
+    padding: 50px 20px;
+    border-radius: 8px;
+  /* Light background for contrast */
+}
+
+/* Card styling */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 12px; /* Rounded corners for a modern look */
+    overflow: hidden;
+    height: auto; /* Dynamic height for flexible content */
+    min-height: 250px; /* Minimum height for consistency */
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
+    justify-content: space-between; /* Spread content evenly */
+    background-color: #ffffff; /* White background for clarity */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+/* Add a hover effect */
+.card:hover {
+    transform: translateY(-10px); /* Slight lift on hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+}
+
+/* Card titles */
+.card-title {
+    font-size: 1.3rem; /* Larger title size */
+    color: #2c3e50; /* Dark muted blue for the title */
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-align: center; /* Center the titles */
+}
+
+/* Card body */
+.card-body {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center; /* Center-align text inside cards */
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.05); /* Subtle inner shadow */
+}
+
+/* Responsive adjustments for layout */
+@media (min-width: 768px) {
+    .col-md-6 {
+        flex: 0 0 25%; /* Ensure cards take 25% of the row */
+        max-width: 25%;
+        padding: 10px; /* Add spacing between cards */
+    }
+}
+/* Section background */
+#contact {
+    background: #f8f9fa; /* Soft gray background */
+}
+
+/* Section heading */
+#contact h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #007bff; /* Blue color */
+}
+
+/* Subheading */
+#contact p {
+    font-size: 1.2rem;
+    color: #6c757d; /* Muted text */
+}
+
+/* Contact information styling */
+.contact-info {
+    background: #ffffff; /* White card background */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-info:hover {
+    transform: translateY(-5px); /* Lift effect */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Stronger shadow */
+}
+
+/* Contact titles */
+.contact-info h4 {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Map styling */
+iframe {
+    border-radius: 10px; /* Rounded edges for the map */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Shadow for map
